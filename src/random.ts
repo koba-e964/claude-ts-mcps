@@ -173,7 +173,7 @@ server.tool(
         content: [
           {
             type: "text",
-            text: `Random integer between ${args.min} and ${args.max}: ${randomInt}`,
+            text: `Random integer between ${args.min} and ${args.max} (both inclusive): ${randomInt}`,
           },
         ],
         isError: false,
